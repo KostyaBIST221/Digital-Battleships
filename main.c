@@ -522,7 +522,7 @@ int Uppdate_ost(inf b[11][11], int ost){
     return ost;
 }
 
-inf Hit(inf b[11][11], int px, int py, ost){
+inf Hit(inf b[11][11], int px, int py, int ost){
     printf("Попадание\nОсталось %i клеток\n",ost-1);
     b[px][py].sum=-2;
     return b[11][11];
